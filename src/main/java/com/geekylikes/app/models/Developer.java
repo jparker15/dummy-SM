@@ -11,6 +11,7 @@ public class Developer {
     @GeneratedValue
     private Long id;
     private String name;
+    private String privateName;
     private String email;
     private Integer cohort;
     private String[] languages;
